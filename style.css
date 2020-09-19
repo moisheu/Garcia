@@ -1,24 +1,48 @@
-body {background-color: #EEEEEE}
 
+body {background-color: #EEEEEE}
+a {
+  text-decoration: none;
+  color: #7584AD;
+  font-family: Roboto; }
+
+#header {
+  background-color: #314570;
+  color: #AED1D6;
+     text-align: center;
+
+}
 #Container {
-  background-color: white
+  background-color: white;
  width: 800px;
  margin-left: auto;
  margin-right: auto;
-}
-{! something is wrong here.. it wont apply to the page?}
-
- #header {
-   background-color: #314570;
-   color: #AED1D6;
+{background-color: #EEEEEE}
    text-align: center;
  }
  #content {
-   padding: 10px;
+padding: 20px;
  }
- #Nav {
+ {!fix padding?}
+ #nav {
    width: 180px;
+   float:left;
  }
+ #nav ul {
+   list-style-type: none;
+   padding: 0;
+ }
+ #nav .selected{
+   font-weight: bold;}
+   h1, h2, h3{
+     margin: 0;
+   }
+
  #main {
-   width: 600px
+   width: 600px;
+   width: 600px;
+   float: right;
  }
+#footer {
+  clear: both;
+  text-align: center;
+}
