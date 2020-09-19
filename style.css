@@ -46,3 +46,39 @@ padding: 20px;
   clear: both;
   text-align: center;
 }
+
+
+.part-container {
+  display: flex;
+  margin: 0 auto;
+  /* width: 760px; */
+  width: 100%;
+}
+
+
+
+.part {
+  flex: 1;
+  margin: 0 16px;
+}
+
+.part-name-box {
+  width: 100%;
+}
+
+.part-name {
+  padding: 8px;
+  width: 100%;
+}
+
+.part-name-box .arrow {
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 12px solid #231f20;
+
+  width: 0;
+  height: 0;
+
+  display: block;
+  margin: 0 auto;
+}
