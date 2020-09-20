@@ -4,6 +4,8 @@ body {background-color: #DAEBB1;
   font-family: 'Century Gothic';
 font-weight: bold;
 width: 850px;
+margin-left: auto;
+margin-right: auto;
 }
 a {
   text-decoration: none;
@@ -11,4 +13,12 @@ a {
   font-family: 'Century Gothic';
 font-weight: bold;
 width: 850px;}
-#Title {text-align: center;}
+#Title {
+color: white;
+  text-shadow:4px 3px 0 #7A7A7A;
+  font-size:35px;
+text-align: center;
+
+
+
+}
