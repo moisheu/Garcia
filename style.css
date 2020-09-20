@@ -1,0 +1,53 @@
+
+body {background-color: #EEEEEE;}
+a {
+  text-decoration: none;
+  color: #7584AD;
+  font-family: 'Century Gothic';
+font-weight: bold;}
+
+#header {
+  background-color: #F99D6B;
+  color: white;
+     text-align: center;
+    text-shadow:4px 3px 0 #7A7A7A;
+    font-size:35px;
+    padding: 15px;
+}
+#Container {
+  background-color: #C0F2E1;
+ width: 1000px;
+ margin-left: auto;
+ margin-right: auto;
+{background-color: white;}
+   text-align: center;
+   font-family: 'Century Gothic';
+ font-weight: bold;}
+ #content {
+padding: 50px;
+ }
+ {!fix padding?}
+ #nav {
+   width: 100px;
+   float:left;
+
+ }
+ #nav ul {
+   list-style-type: none;
+   padding: 0;
+ }
+ #nav .selected{
+  text-decoration: underline;}
+   h1, h2, h3{
+     margin: 0;
+   }
+
+ #main {
+   width: 750px;
+   float: right;
+ }
+#footer {
+  clear: both;
+  text-align: center;
+
+}
