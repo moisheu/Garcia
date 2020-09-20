@@ -15,12 +15,27 @@ font-weight: bold;
 width: 850px;}
 #Title {
 color: white;
-  text-shadow:4px 3px 0 #7A7A7A;
+  text-shadow:4px 3px 0 teal;
   font-size:35px;
 text-align: center;
 
 }
 
 #Recipes {float: left;
-}
-#Health {float:right;}
+  border-radius: 25px;
+   background: white;
+   padding: 20px;
+   width: 350px;
+   height: 400px;
+ text-align: center;
+font-size: 30px;
+box-shadow: 10px -7px teal}
+#Health {float:right;
+  border-radius: 25px;
+   background: white;
+   padding: 20px;
+   width: 350px;
+   height: 400px;
+ text-align: center;
+font-size: 30px;
+box-shadow: 10px -7px teal}
