@@ -1,0 +1,14 @@
+body {background-color: #DAEBB1;
+  text-decoration: none;
+  color: #47557D;
+  font-family: 'Century Gothic';
+font-weight: bold;
+width: 850px;
+}
+a {
+  text-decoration: none;
+  color: #7584AD;
+  font-family: 'Century Gothic';
+font-weight: bold;
+width: 850px;}
+#Title {text-align: center;}
