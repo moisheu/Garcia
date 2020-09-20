@@ -10,11 +10,10 @@ font-weight: bold;}
 #nav {
   border-radius: 25px;
   background: white;
-  padding: 20px;
-  width: 400px;
+  padding: 50px;
   height: 200px;
   font-size: 25px;
-  text-align: center;
+  
 }
 
 #header {
