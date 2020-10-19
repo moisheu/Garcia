@@ -68,23 +68,6 @@ $(document).ready(function(){
         $(".calculate").slideDown(500);
     });
 
-        /*
-    $("input #meal-count").focus(function(){
-        if ((known_bf == true) && ($("input[id='weight-yes']").val() != "")
-            && ($("input[id='body-fat']").val() != "")
-            && ($("input[id='pa']:checked").val())) {
-            $(".calculate").slideDown(500)
-        } else if ((known_bf == false) && ($("input[id='weight-no']").val() != "")
-            && ($("input[id='age']").val() != "") && ($("input[name='gender']:checked").length > 0)
-            && ($("input[id='feet']").val() != "") && ($("input[id='inches']").val() != "")
-            && ($("input[id='pa']:checked").val())) {
-            $(".calculate").slideDown(500);
-        } else {
-            return null;
-        }
-    })
-        */
-
     function calc_cals(known_bf, kg, pa, bf, age, ht, gender) {
         if (known_bf == true) {
             return Math.round((370+(21.6*(kg-(kg*(bf/100)))))*pa);
